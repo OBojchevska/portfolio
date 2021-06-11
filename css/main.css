@@ -1,0 +1,53 @@
+#hero {
+    background-color: #EACEC5;
+    padding-top: 150px;
+    padding-bottom: 70px;
+    padding-left: 50px;
+    width: 100%;
+    height: 100vh;
+}
+
+.navbar navbar-expand-lg {
+
+    color: #EACEC5;
+
+}
+
+#footer {
+
+    background-color: #4F5964;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.centar {
+    text-align: center;
+    color: #E5CCC5;
+}
+
+#contact {
+    text-align: center;
+    color: #FDFBFB;
+}
+
+#ProektSlika {
+
+    padding: 70px;
+}
+#ProjectName{
+
+    padding-top: 70px;;
+}
+#Projects {
+    background-color: #F9F2F0;
+}
+
+.centar {
+    margin-top: 30px;
+}
+
+#contact {
+
+    margin-top: 50px;
+    margin-bottom: 70px;
+}
