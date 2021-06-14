@@ -119,17 +119,23 @@ h3{
     #mojaSlika{
         display: none;
     }
-    #ProektSlika{
+     #ProektSlika{
         padding: 0px;
-        margin-left: 20px;;
+        /* margin-left: 20px;; */
+      
 
-    }
+    } 
+   
 
     #ProjectName{
         /* padding: 30px 0 0 0;; */
-        padding: 0px;
-        margin-left: 20px;;
-        padding-bottom: 30px;
+        margin-bottom: 60px;
+        margin-top: 20px;
+        text-align: center;
+        margin-left: auto;
+        margin-right: auto;   
+        padding: 0px;;    
+
         
 
     }
@@ -138,4 +144,13 @@ h3{
         padding-top: 60px;
         padding-bottom: 60px;
     }
+    #slika{
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 80%;
+        
+       }
+
+
   }
