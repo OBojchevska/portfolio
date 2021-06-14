@@ -5,7 +5,10 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
 
@@ -27,22 +30,26 @@
 
 
 
-
     <div class="containter" id="hero">
         <div class="row">
-            <div class="col">
+
+
+            <div class="col-sm-6">
+                <img src="Images/jas.jpg" width="400" id="mojaSlika">
+            </div>
+            <div class="col-sm-6">
                 <h1>Hello! I am Olivera,a</h1>
-                <h1> UX/UI Designer
+                <h1 class="red"> UX/UI Designer
                 </h1>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. In sollicitudin aliquam.Lorem ipsum dolor
+                <p id="text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. In sollicitudin aliquam.
+                    sit amet, consectetur adipiscing elit. In sollicitudin aliquam.Lorem ipsum dolor sit amet,
+                    consectetur adipiscing elit. In sollicitudin aliquam.
                     sit amet, consectetur adipiscing elit. In sollicitudin aliquam.</p>
-
-
+                <button type="button" class="resume">Resume</button>
+                <button type="button" class="resume">Contact</button>
 
             </div>
-            <div class="col">
-                <img src="Images/jas.jpg" width="200" height="200">
-            </div>
+
         </div>
 
 
@@ -52,14 +59,15 @@
     <div class="containter" id="Projects">
 
         <div class="row">
-            <div class="col-6" id="ProektSlika">
+            <div class="col-sm-6" id="ProektSlika">
                 <img src="Images/BrainsterShum.jpg" width="500">
             </div>
-            <div class="col-6" id="ProjectName">
-                <h3>Project Name</h3>
+            <div class="col-sm-6" id="ProjectName">
+                <h3>Браинстер Шум</h3>
 
                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. In sollicitudin aliquam.Lorem ipsum dolor
                     sit amet, consectetur adipiscing elit. In sollicitudin aliquam </p>
+                <button type="button" class="caseStudy">View Case Study</button>
 
 
             </div>
@@ -71,13 +79,15 @@
 
 
         <div class="row">
-            <div class="col-6" id="ProektSlika">
+            <div class="col-sm-6" id="ProektSlika">
                 <img src="Images/VidiVaka.jpg" width="500">
             </div>
             <div class="col-6" id="ProjectName">
-                <h3>Project Name</h3>
+                <h3>Види Вака</h3>
                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. In sollicitudin aliquam.Lorem ipsum dolor
                     sit amet, consectetur adipiscing elit. In sollicitudin aliquam </p>
+                <button type="button" class="caseStudy">View Case Study</button>
+
 
             </div>
 
@@ -87,13 +97,15 @@
 
 
         <div class="row">
-            <div class="col-6" id="ProektSlika">
+            <div class="col-sm-6" id="ProektSlika">
                 <img src="Images/BN.jpg" width="500">
             </div>
-            <div class="col-6" id="ProjectName">
-                <h3>Project Name</h3>
+            <div class="col-sm-6" id="ProjectName">
+                <h3>Brainster Next</h3>
                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. In sollicitudin aliquam.Lorem ipsum dolor
                     sit amet, consectetur adipiscing elit. In sollicitudin aliquam </p>
+                <button type="button" class="caseStudy">View Case Study</button>
+
 
             </div>
 
@@ -116,20 +128,33 @@
             <p>Get in touch for opportunities or just say hi!</p>
         </div>
         <div class="row" id="contact">
-            <div class="col-4">
+            <div class="col-sm-4">
+                <i class="fa fa-envelope"></i>
+
                 <p>bojchevskao@gmail.com</p>
             </div>
-            <div class="col-4">
+            <div class="col-sm-4">
+                <i class="fa fa-phone" aria-hidden="true"></i>
+
                 <p>(+389)70 650 690</p>
             </div>
-            <div class="col-4">
+            <div class="col-sm-4">
+                <i class="fa fa-linkedin-square"></i>
+
                 <p>OliveraBojchevska</p>
 
             </div>
         </div>
 
     </div>
+    <div class="container-fluid" id="end">
 
+        <p>Created by Olivera Bojchevska
+            <i class="fa fa-copyright" aria-hidden="true"></i>
+
+            2021 All rights reserved
+        </p>
+    </div>
 
 
 
