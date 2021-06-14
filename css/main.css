@@ -113,11 +113,12 @@ h3{
 }
 
 @media only screen and (max-width: 576px) {
-    body {
-      background-color: #000000;
-    }
+   
     #mojaSlika{
         display: none;
+    }
+    .resume{
+        margin-bottom: 20px;
     }
      #ProektSlika{
         padding: 0px;
