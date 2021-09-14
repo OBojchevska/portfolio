@@ -1,12 +1,27 @@
+
+body{
+
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+
+
 #hero {
-    background-color: #EACEC5;
-    /* width: 100%; */
-    /* height: 100vh; */
-    color:#61646C;
+    /* background-color:  #DDDDDD; */
+  
+   /* background-color: #708a8a; */
+   /* background-color: #608b8b; */
+background-color: #EAD7C7;
+
+    width: 100%;
+    height: 100vh;
+    color:#000000;
     padding-top: 100px;
     padding: 100px;
 
+
 }
+
 
 #text{
 
@@ -18,35 +33,55 @@
 
 #footer {
 
-    background-color: #4F5964;
+    background-color: #DDDDDD;
     padding-top: 30px;
     padding-bottom: 30px;
+    /* margin-top: 140px; */
 }
 
 .centar {
     text-align: center;
-    color: #E5CCC5;
+    color: #FC7233;
 }
 
 #contact {
     text-align: center;
-    color: #FDFBFB;
+    color: #000000;
 }
 
-#ProektSlika {
+#learnPic{
+
+    padding: 0px 0px 100px 0px;
+}
+.ProektSlika {
 
   
     padding: 100px 0px 100px 100px;
+    /* margin-top: 100px; */
 }
-#ProjectName{
+.ProjectName{
 
    
-    padding: 100px 200px 100px 0px;
-    color: #4F5964;
+    padding: 150px 200px 100px 0px;
+    /* color: #4F5964; */
+   
 
 }
 #Projects {
-    background-color: #F9F2F0;
+    background-color: #FFFFFF;
+    color: #222222 ;
+}
+
+.link{
+    color: #222222 ;
+    font-size: 20px;
+    font-weight: bold;
+    border-bottom: #222222 solid 2px;
+    display: inline-block;
+    text-decoration: none;
+    padding-bottom: 15px;;
+   
+
 }
 
 .centar {
@@ -58,69 +93,50 @@
     margin-top: 50px;
     margin-bottom: 70px;
 }
+#linkedin{
+    text-decoration: none;
+    color: black;
+}
 
 
-nav{
-    background-color: #EACEC5;
-     float: right; 
-     padding-right: 50px;
-     font-family: Montserrat;
-     font-size: 24px;
-     
-}
-.navbar-nav{
-    padding-right: 100px;
-}
-.nav-item{
-    margin-left: 36px;
-}
 
 #mojaSlika{
    padding-left: 100px;
+   margin-top: 50px;;
+}
+#meText{
+    margin-top: 150px;
+    padding-left: 100px;
+
 }
 #end{
     text-align: center;
-    background-color: #EACEC5;
-    color: #4F5964;
+    background-color: #4B4A47;
+    color: #FFFFFF;
+    /* padding-top: 2px; */
+    /* padding-bottom: 2px; */
 }
-.red{
-    color: #723E51;
+.orange{
+    color: #FC7233;
 }
 .clear{
     clear: both;
 }
-.resume{
-    background-color: #EACEC5;
-    border-radius: 20px;
-    color: #723E51;
-  border: 2px solid #723E51;
-  padding: 5px;
-  width: 100px;
-  margin-right: 20px;;
-}
-.caseStudy{
-    background-color: #F9F2F0;
-    border-radius: 20px;
-    border: 2px solid #723E51;
-    padding: 5px;
-    width: 150px;
-    margin-top: 30px;
-    color: #723E51;
 
-}
+
 h3{
     margin-bottom: 20px;
 }
 
 @media only screen and (max-width: 576px) {
    
-    #mojaSlika{
+    mojaSlika{
         display: none;
     }
     .resume{
         margin-bottom: 20px;
     }
-     #ProektSlika{
+     .ProektSlika{
         padding: 0px;
         /* margin-left: 20px;; */
       
@@ -128,7 +144,7 @@ h3{
     } 
    
 
-    #ProjectName{
+    .ProjectName{
         /* padding: 30px 0 0 0;; */
         margin-bottom: 60px;
         margin-top: 20px;
@@ -145,13 +161,87 @@ h3{
         padding-top: 60px;
         padding-bottom: 60px;
     }
-    #slika{
+    /* #slika{
         display: block;
         margin-left: auto;
         margin-right: auto;
         width: 80%;
         
-       }
+       } */
 
 
+  }
+
+
+
+  /* VidiVakaCaseStudy */
+  .info{
+      margin-left: 170px;
+  }
+  .overview, .problem, .solution, .outcome{
+      margin-left: 170px;
+      margin-top: 100px;
+      margin-right: 170px;
+    }
+    .outcome{
+        margin-bottom: 150px;
+    }
+    .potencirano{
+        font-weight: bold;
+    }
+    /* .slika{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 1000px;
+        border-color: blues;
+    } */
+    #heroVidiVaka{
+        background-color: #DDDDDD;
+        margin-bottom: 50px;
+        padding-bottom: 100px;
+        padding-top: 100px;
+        
+    }
+    .vvPersona{
+        border: 1px solid #e9e9ee;
+        margin-top: 40px;
+        margin-bottom: 40px;
+    }
+   
+    #heroSlikaVV{
+
+               margin-top: 0px; 
+   }
+   
+   #heroTekst{
+              margin-top: 100px; 
+              padding-left: 150px;   
+             }
+  #heroTheLearn{
+  
+        background-color: #DDDDDD;
+        margin-bottom: 50px;
+        /* padding-bottom: 100px; */
+        /* padding-top: 100px; */
+        
+    
+  }
+  #herotekstApp{
+
+    margin-top: 150px;
+    padding-left: 150px;;
+  }
+  /* Shum */
+  #heroShum{
+      background-color: #DDDDDD;
+      margin-bottom: 50px;
+     
+  }
+  #ShumSlka{
+      margin-top: 30px;
+      margin-bottom: 30px;
+      width: 500px;
+      align-items: center;
+      margin-left: 100px;
   }
