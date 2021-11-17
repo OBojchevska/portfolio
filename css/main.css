@@ -133,31 +133,40 @@ h3{
     .resume{
         margin-bottom: 20px;
     }
-     .ProektSlika{
+
+     /* .ProektSlika{
         padding: 0px;
         /* margin-left: 20px;; */
       
 
-    } 
+    img{
+        width: 400px;
+        padding-bottom: 0px;
+    }
+    #learnPic{
+        margin-left: 60px;
+    }
    
-
+    #SSlika{
+        width: 300px;
+        margin-left: 20px;
+    }
+   
     .ProjectName{
-        padding: 30px 0 0 0;
-        margin-bottom: 60px;
-        margin-top: 20px;
+        /* padding: 30px 0 0 0; */
+        margin-bottom: 80px;
+        /* margin-top: 20px; */
         text-align: center;
         margin-left: auto;
         margin-right: auto;   
-        padding: 0px;;    
+        padding: 0px;
+        margin-top: -40px;
 
         
 
     }
 
-    #Projects{
-        padding-top: 60px;
-        padding-bottom: 60px;
-    }
+    
     /* #slika{
         display: block;
         margin-left: auto;
@@ -165,20 +174,33 @@ h3{
         width: 80%;
         
        } */
+ 
+       .overview, .problem, .solution, .outcome{
+           margin:0px;
+           text-align: left;
+       }
 
 
-  }
-
+    }
+/*  END OF MEDIA QUERY */
 
 
   /* VidiVakaCaseStudy */
   .info{
       margin-left: 170px;
+      @media only screen and (max-width: 576px) {
+          margin-left: 20px;
+
+      }
   }
   .overview, .problem, .solution, .outcome{
       margin-left: 170px;
       margin-top: 100px;
       margin-right: 170px;
+      /* @media only screen and (max-width: 576px) {
+        margin-left: none;
+        
+    } */
     }
     .outcome{
         margin-bottom: 150px;
